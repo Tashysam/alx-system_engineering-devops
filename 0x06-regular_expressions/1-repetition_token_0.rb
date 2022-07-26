@@ -1,2 +1,4 @@
 #!/usr/bin/env ruby
-puts ARGV[0].scan(/hb{1}t{2,5}n{1}/).join
+#a Ruby script that accepts one argument and pass it to a regular expression matching method
+#Find the regular expression that will match any string that contains a sequence of 2 to 5 t's
+puts ARGV[0].scan(/hbt{2,5}n/).join
